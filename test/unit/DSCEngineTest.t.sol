@@ -40,7 +40,7 @@ contract DSCEngineTest is Test {
 
     function setUp() public {
         deployer = new DeployDSC();
-        (dsc, engine, config) = deployer.run();
+        (dsc, engine, config,,) = deployer.run();
         (wethUsdPriceFeed, wbtcUsdPriceFeed, weth , , ) = config.activeNetworkConfig();
 
         // console.log("DSC Owner:", dsc.owner());

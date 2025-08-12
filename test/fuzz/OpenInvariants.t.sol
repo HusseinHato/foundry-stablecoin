@@ -1,15 +1,15 @@
 // // SPDX-License-Identifier: SEE LICENSE IN LICENSE
-// pragma solidity ^0.8.20;
+pragma solidity ^0.8.20;
 
-// import {Test} from "forge-std/Test.sol";
-// import {StdInvariant} from "forge-std/StdInvariant.sol";
+import {Test} from "forge-std/Test.sol";
+import {StdInvariant} from "forge-std/StdInvariant.sol";
 // import {DeployDSC} from "script/DeployDSC.s.sol";
 // import {HelperConfig} from "script/HelperConfig.s.sol";
 // import {DSCEngine} from "src/DSCEngine.sol";
 // import {DecentralizedStableCoin} from "src/DecentralizedStableCoin.sol";
 // import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
-// contract Invariants is StdInvariant, Test {
+contract Invariants is StdInvariant, Test {}
 //     DeployDSC deployer;
 //     DSCEngine dsce;
 //     DecentralizedStableCoin dsc;
